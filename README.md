@@ -1,0 +1,1 @@
+A quiz. With possiblity for multiple choices and a score at the end.
