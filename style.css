@@ -1,0 +1,34 @@
+/* -    -   -   -   -
+i wanted to highlight user selected choices but i cannot do it the way i have set it up without using js, oh well foor for thought until next time.
+-   -   -   -   - */
+body{
+    background-image: url(PurpleMosaicFlower32.svg);
+    background-size: 10%;
+    background-repeat: repeat;
+    background-position-x: center;
+    margin: 0;
+    text-shadow: 0 0 10px #A86464 ;
+    text-align: center;
+}
+label{
+    border: 5px solid #C85C8E;
+    background-color: #FFBABA;
+    padding: 5px;
+    margin: 10px;
+}
+main{
+    margin: auto;
+    width: fit-content;
+    height: 100vh;
+    padding: 25px;
+    background-color: #804674;
+    border-left: #7B2869 15px solid;
+    border-right: #7B2869 15px solid;
+}
+#questiontext{
+    border: 5px solid #B3E5BE;
+    background-color: #F5FFC9;
+}
+button{
+    margin-top: 25px;
+}
