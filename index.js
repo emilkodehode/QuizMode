@@ -1,4 +1,5 @@
 'use strict'
+import { quizData } from "./quizdata.js"
 /*
 i want to make a quiz. first i need some questions and for each question i want options to choose from.
 i want the possibility for mutiple choice questions and single choise. the questions themselves should state if multiple choices is and option
@@ -30,35 +31,8 @@ if i want to scramlbe i use classic for loop i know how, but i want to experieme
 scramble questions themselves so they dont appear in the same order
 
 */
-
-
-const quizForm = [
-    {
-        question: "im asking first question. multiple choice yes",
-        options: ["option a", "option b", "option c", "option d"],
-        scores: [1,1,1,1],
-        multipleChoice: true
-    },
-    {
-        question: "im asking the second question. multiple choice yes",
-        options: ["option a", "option b", "option c", "option d"],
-        scores: [1,1,1,1],
-        multipleChoice: true
-    },
-    {
-        question: "im asking the third question. multiple choice no",
-        options: ["option 1", "option 2", "option 3", "option 4"],
-        scores: [1,1,1,1],
-        multipleChoice: false
-        
-    },
-    {
-        question: "this is the fourth question. multiple choice yes",
-        options: ["this choice", "that one", "maybe this", "chose me"],
-    scores: [1,1,1,1],
-    multipleChoice: true
-}
-]
+const quizForm = quizData
+//live server to see it work otherwise cors error
 
 //i wanted to have this quizEl be a parameter for quizInitialiser but that made it so i hade to pass it around more than expected. quizEventHandler already have way to many parameters. oh well good practice for next time to reduce concern and responsibilty and such
 const quizEl = document.getElementById("quiz-el")
