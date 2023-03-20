@@ -1,4 +1,4 @@
-import { quizData } from "quizdata.js"
+import { quizData } from ".quizdata.js"
 'use strict'
 /*
 i want to make a quiz. first i need some questions and for each question i want options to choose from.
