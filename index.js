@@ -1,5 +1,5 @@
-'use strict'
 import { quizData } from "quizdata.js"
+'use strict'
 /*
 i want to make a quiz. first i need some questions and for each question i want options to choose from.
 i want the possibility for mutiple choice questions and single choise. the questions themselves should state if multiple choices is and option
